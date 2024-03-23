@@ -22,7 +22,7 @@ const Card = ({ project }) => {
           <p>{project?.modal?.first_image}</p>
           <div>
             <div>
-              {project?.modal?.right_content?.map((content) => {
+              {project?.modal?.left_content?.map((content) => {
                 return (
                   <div>
                     <h1>{content?.title}</h1>
@@ -32,7 +32,7 @@ const Card = ({ project }) => {
               })}
             </div>
             <div>
-              {project?.modal?.left_content?.map((content) => {
+              {project?.modal?.right_content?.map((content) => {
                 return (
                   <div>
                     <h1>{content?.title}</h1>

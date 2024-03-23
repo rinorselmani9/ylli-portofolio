@@ -7,7 +7,7 @@ export const projects = [
         modal:{
             first_image:"first_image",
             second_image:"second_image",
-            right_content:[
+            left_content:[
                 {
                     title:"Tool",
                     description:"Figma"
@@ -21,7 +21,7 @@ export const projects = [
                     description:"1 week"
                 },
             ],
-            left_content:[
+            right_content:[
                 {
                     title:"Project Brief",
                     description:"Redesign the landing page to improve user experience, while maintaining brand identity through the primary color palette."
