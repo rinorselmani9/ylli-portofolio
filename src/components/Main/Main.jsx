@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <>
       <div id="main" className={styles.main}>
-        <p className={styles.hello}>{main_content.first_heading}</p>
+        <p className={styles.hello}>{main_content.first_heading} 👋</p>
         <h1 className={styles.header}>
           {" "}
           I’m{" "}
