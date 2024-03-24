@@ -1,6 +1,6 @@
 export const projects = [
     {
-        preview_image:"",
+        preview_image:"Card_1.png",
         preview_heading:"Job Finder",
         preview_description:"ICK training program project",
 
@@ -52,7 +52,7 @@ export const projects = [
         }
     },
     {
-        preview_image:"",
+        preview_image:"Card_2.png",
         preview_heading:"",
         preview_description:"",
 
@@ -82,7 +82,7 @@ export const projects = [
         }
     },
     {
-        preview_image:"",
+        preview_image:"Card_3.png",
         preview_heading:"",
         preview_description:"",
 
@@ -112,7 +112,7 @@ export const projects = [
         }
     },
     {
-        preview_image:"",
+        preview_image:"Card_4.png",
         preview_heading:"",
         preview_description:"",
 

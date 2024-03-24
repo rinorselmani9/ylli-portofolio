@@ -5,7 +5,7 @@ import Card from './Card'
 const Projects = () => {
   return (
     <div id='projects' style={{height:'400px'}}>
-      {projects?.map((project) =><Card project={project}/>)}
+      {projects?.map((project,index) =><Card key={index} project={project}/>)}
     </div>
   )
 }

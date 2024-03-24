@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({process}) => {
   return (
     <div>
-        <p>{process.icon}</p>
+        <img src={`/assets/images/proccesses/${process.icon}`}/>
         <p>{process.card_heading}</p>
         <p>{process.card_description}</p>
     </div>

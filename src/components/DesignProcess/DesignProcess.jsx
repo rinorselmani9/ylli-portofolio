@@ -7,7 +7,7 @@ const DesignProcess = () => {
     <div>
         <div>{design_process.title}</div>
         <div>
-            {design_process?.processes.map((process) => <Card process={process}/>)}
+            {design_process?.processes.map((process, index) => <Card key={index} process={process}/>)}
         </div>
     </div>
   )
