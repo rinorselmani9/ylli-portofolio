@@ -53,8 +53,8 @@ export const projects = [
     },
     {
         preview_image:"Card_2.png",
-        preview_heading:"",
-        preview_description:"",
+        preview_heading:"Job Finder",
+        preview_description:"ICK training program project",
 
         modal:{
             first_image:"",
@@ -83,8 +83,8 @@ export const projects = [
     },
     {
         preview_image:"Card_3.png",
-        preview_heading:"",
-        preview_description:"",
+        preview_heading:"Job Finder",
+        preview_description:"ICK training program project",
 
         modal:{
             first_image:"",
@@ -113,8 +113,8 @@ export const projects = [
     },
     {
         preview_image:"Card_4.png",
-        preview_heading:"",
-        preview_description:"",
+        preview_heading:"Job Finder",
+        preview_description:"ICK training program project",
 
         modal:{
             first_image:"",

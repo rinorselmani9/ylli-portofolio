@@ -1,0 +1,112 @@
+.projectsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: 15px 0px;
+  .cardWrapper {
+    margin: 15px 0px;
+    @media screen and (max-width: 450px) {
+      width: 80%;
+      padding: 0;
+    }
+    width: 50%;
+    padding: 1% 1% 1% 0;
+    img {
+      width: 100%;
+    }
+  }
+  .contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+    color: white;
+    .textWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h5 {
+        font-size: 24px;
+        margin: 0;
+      }
+      p {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+    .button {
+      background: none;
+      border: 1px solid white;
+      border-radius: 16px;
+      padding: 24px;
+    }
+  }
+}
+.modal {
+  width: 100%;
+  div {
+    background-color: black;
+    // color: #fff;
+  }
+  .modalHeader {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+      .button {
+        background: none;
+        border: 1px solid white;
+        border-radius: 16px;
+        padding: 24px;
+      }
+  }
+  .firstContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 40px 30px;
+    .rightContent {
+      margin: 0px 30px 0px 10px;
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+        color: #7d8482;
+      }
+    }
+    .leftContent {
+      margin: 0px 10px 0px 30px;
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+        color: #7d8482;
+      }
+    }
+  }
+  .solutions {
+    margin: 40px 30px;
+    color: white;
+    h1 {
+      font-size: 46px;
+    }
+    .solutionHeadings {
+      margin: 10px 25px;
+      li {
+        font-size: 24px;
+        margin: 15px 0px 20px;
+      }
+      .solutionPoints {
+        li {
+          list-style-type: disc;
+          padding: 5px;
+          font-size: 20px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

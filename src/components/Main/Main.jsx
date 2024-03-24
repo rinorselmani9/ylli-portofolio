@@ -12,8 +12,8 @@ const Main = () => {
       <h1 className={styles.header}> I’m  <b>Yll Sel<span>man</span>i</b></h1>
       <h2 className={styles.description}>{main_content.description}</h2>
       <Link to='/contact' className={styles.button}>{main_content.button_text}</Link>
-      {/* <Projects/>
-      <DesignProcess/> */}
+     <Projects/>
+      <DesignProcess/> 
     </div>
   )
 }

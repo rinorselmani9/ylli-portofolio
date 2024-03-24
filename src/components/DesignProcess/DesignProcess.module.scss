@@ -1,0 +1,35 @@
+.processWrapper{
+    // background-image: url('/public/assets/images/proccesses/process_background.jpg');
+    margin: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .cardsWrapper{
+        width: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            width: 43%;
+            margin: 2%;
+            background-color: #606075;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 3%;
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            p{
+                margin: 10px 0;
+                font-size: 19px;
+            }
+            .heading{
+                font-size: 24px;
+            }
+        }
+    }
+}
