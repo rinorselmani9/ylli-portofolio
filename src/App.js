@@ -1,8 +1,8 @@
-import "./App.css";
-import Header from "./components/Header";
+import "./App.scss";
+import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 import Main from "./components/Main/Main";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import DesignProcess from "./components/DesignProcess/DesignProcess";
 import Contact from "./components/Contact/Contact";
 
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <div>
         <Main />
-        <Projects />
-        <DesignProcess />
-        <Contact/>
+        {/* <Projects /> */}
+        {/* <DesignProcess /> */}
+        {/* <Contact/> */}
       </div>
       <Footer />
     </div>
