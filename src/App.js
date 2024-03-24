@@ -1,11 +1,11 @@
 import Header from "./components/Header/Header";
-import Projects from "./components/Projects/Projects";
-import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
+import ProjectsPage from "./Pages/Projects/ProjectsPage";
+import ContactPage from "./Pages/Contact/ContactPage";
+import HomePage from './Pages/Home/HomePage'
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />

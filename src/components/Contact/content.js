@@ -1,7 +1,7 @@
 export const contact_content = {
     right_content:{
         title:"Let's talk!",
-        sub_heading:""
+        sub_heading:"Bridging Ideas and Conversations – Contact Me for a Connection!"
     },
     left_content:{
         first_input:{

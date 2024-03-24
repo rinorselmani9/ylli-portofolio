@@ -12,7 +12,8 @@ const DesignProcess = () => {
       }}
       className={styles.processWrapper}
     >
-      <div>
+        
+      <div className={styles.processHeader}>
         <h1>{design_process.title}</h1>
       </div>
       <div className={styles.cardsWrapper}>
