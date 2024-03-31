@@ -1,18 +1,29 @@
 .footerWrapper {
+  // position: absolute;
+  // bottom:0;
   padding: 64px 5%;
   color: white;
-  background-color: black   ;
+  width: 100%;
+  background-color: black;
   .arrowContainer {
     display: flex;
     vertical-align: middle;
     align-items: center;
-    margin: 24px 0 0 ;
+    margin: 24px 0 0;
     .talk {
       font-size: 40px;
       margin: 0 20px 0 0;
+      font-size: 40px;
       transition: font-size 0.3s ease;
       &:hover {
-          font-size: 60px;
+        font-size: 60px;
+      }
+      @media screen and(max-width:350px) {
+        font-size: 36px;
+        transition: font-size 0.3s ease;
+        &:hover {
+          font-size: 50px;
+        }
       }
     }
   }
