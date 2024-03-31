@@ -9,7 +9,7 @@ const Footer = () => {
         <b>Have an idea?</b>
       </h1>
       <div className={styles.arrowContainer}>
-        <h1 className={styles.talk}>Let's Talk</h1>
+        <p className={styles.talk}>Let's Talk</p>
         <ArrowUp />
       </div>
     </div>

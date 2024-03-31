@@ -4,6 +4,7 @@
   width: 100%;
   justify-content: center;
   margin: 15px 0%;
+  padding: 100px 0;
   .cardWrapper {
     margin: 15px 0px;
     @media screen and (max-width: 500px) {
@@ -40,11 +41,18 @@
       border: 1px solid white;
       border-radius: 16px;
       padding: 24px;
+      &:hover{
+        background-color: white;
+        svg path{
+          fill:black
+        }
+      }
     }
   }
 }
 .modal {
   width: 100%;
+  scroll-behavior: smooth;
   div {
     background-color: black;
     // color: #fff;
@@ -53,11 +61,20 @@
     display: flex;
     justify-content: flex-end;
     border: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
       .button {
         background: none;
         border: 1px solid white;
         border-radius: 16px;
-        padding: 24px;
+        padding: 12px;
+        &:hover{
+          background-color: white;
+          svg path{
+            fill:black
+          }
+        }
       }
   }
   .firstContent {

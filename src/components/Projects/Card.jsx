@@ -24,9 +24,9 @@ const Card = ({ project }) => {
             <h5>{project?.preview_heading}</h5>
             <p>{project?.preview_description}</p>
           </div>
-          <button className={styles.button} onClick={openModal}>
-            <ArrowUp />
-          </button>
+          <span className={styles.button} onClick={openModal}>
+            <ArrowUp className={styles.arrowUp} />
+          </span>
         </div>
       </div>
 

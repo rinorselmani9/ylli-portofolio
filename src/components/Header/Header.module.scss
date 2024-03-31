@@ -4,10 +4,11 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding :0 5%;
+  padding: 0 5%;
   .logo {
-    h1 {
+    p {
       margin: 0;
+      font-size: 24px;
     }
   }
   .navWrapper {
@@ -19,30 +20,34 @@
       position: relative;
       display: inline-block;
       transition: transform 0.2s ease;
+      &:hover {
+        color: #db752b;
+      }
 
       @media screen and (min-width: 1024px) {
-      &::after {
-        content: "";
-        display: block;
-        width: 8px;
-        height: 8px;
-        background-color:#DB752B;
-        position: absolute;
-        bottom: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        opacity: 0;
-        transition: opacity 0.3s;
-      }
-      &.active {
-        color: #DB752B;
         &::after {
-          opacity: 1;
+          content: "";
+          display: block;
+          width: 8px;
+          height: 8px;
+          background-color: #db752b;
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 50%;
+          opacity: 0;
+          transition: opacity 0.3s;
         }
-        transform: translateY(-5px);
+        &.active {
+          color: #db752b;
+          font-weight: bold;
+          &::after {
+            opacity: 1;
+          }
+          transform: translateY(-5px);
+        }
       }
-    }
     }
   }
 }

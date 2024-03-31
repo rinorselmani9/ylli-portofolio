@@ -1,13 +1,14 @@
 .processWrapper {
-  // background-image: url('/public/assets/images/proccesses/process_background.jpg');
+  height: 981px;
   margin: 0 0;
-  padding: 0 2% 0 5%;
+  padding: 0 2% 0% 5%;
   background-repeat: no-repeat;
   background-size: 100% 90%;
   display: flex;
   width: 100%;
   justify-content: space-between;
   color: white;
+  background-position: center 90%;
   @media screen and (max-width: 1030px) {
     display: flex;
     flex-direction: column;
@@ -20,31 +21,24 @@
     }
   }
   .cardsWrapper {
-    width: 48%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
+    height: 80%;
     @media screen and (max-width: 1030px) {
       display: flex;
       width: 90%;
     }
     .card {
-      width: 43%;
+      width: 44%;
       margin: 2%;
-      // background-color: #606075;
       border-radius: 24px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 3%;
+      padding:3%;
       background: linear-gradient(#34343F, #222224);
-      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.12)
-      ;
-      // background: rgba( 96, 96, 117, 0.5 );
-      // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      // backdrop-filter: blur( 10px );
-      // -webkit-backdrop-filter: blur( 10px );
-      // border-radius: 10px;
-      // border: 1px solid rgba( 255, 255, 255, 0.18 );
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.12);
       @media screen and (max-width: 500px) {
         display: flex;
         width: 90%;
@@ -54,7 +48,6 @@
         height: 60px;
       }
       p {
-        margin: 10px 0;
         font-size: 19px;
       }
       .heading {

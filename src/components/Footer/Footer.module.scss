@@ -1,12 +1,14 @@
 .footerWrapper {
-  padding: 3% 5%;
+  padding: 64px 5%;
   color: white;
   background-color: black   ;
   .arrowContainer {
     display: flex;
     vertical-align: middle;
     align-items: center;
+    margin: 24px 0 0 ;
     .talk {
+      font-size: 40px;
       margin: 0 20px 0 0;
       transition: font-size 0.3s ease;
       &:hover {
