@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 import styles from "./Projects.module.scss";
 import ArrowUp from "./ArrowUp";
-import ArrowDown from './ArrowDown'
+import ArrowDown from "./ArrowDown";
 
 const Card = ({ project }) => {
   const [showModal, setShowModal] = useState(false);
@@ -31,7 +31,7 @@ const Card = ({ project }) => {
       </div>
 
       <Modal
-        size="lg"
+        size="xl"
         className={styles.modal}
         show={showModal}
         onHide={closeModal}
@@ -42,17 +42,24 @@ const Card = ({ project }) => {
           </button>
         </Modal.Header>
         <Modal.Body>
-          <img
-            src={`/assets/images/projects/${project?.modal?.first_image}`}
-            alt={`${project?.preview_description}`}
-          />
+          <div className={styles.imgWrapper}>
+            <img
+              src={`/assets/images/projects/${project?.modal?.first_image}`}
+              alt={`${project?.preview_description}`}
+            />
+          </div>
           <div className={styles.firstContent}>
             <div className={styles.rightContent}>
               {project?.modal?.left_content?.map((content, index) => {
+                const descriptions = content?.description
+                  .split(",")
+                  .filter(Boolean);
                 return (
                   <div key={index}>
                     <h1>{content?.title}</h1>
-                    <p>{content?.description}</p>
+                    {descriptions.map((description, idx) => (
+                      <p  key={idx}>{description}</p> 
+                    ))}
                   </div>
                 );
               })}
@@ -68,10 +75,12 @@ const Card = ({ project }) => {
               })}
             </div>
           </div>
-          <img
-            src={`/assets/images/projects/${project?.modal?.second_image}`}
-            alt={`${project?.preview_description}`}
-          />
+          <div className={styles.imgWrapper}>
+            <img
+              src={`/assets/images/projects/${project?.modal?.second_image}`}
+              alt={`${project?.preview_description}`}
+            />
+          </div>
           <div className={styles.solutions}>
             <h1>{project?.modal?.my_solution?.title}</h1>
             <ol className={styles.solutionHeadings}>

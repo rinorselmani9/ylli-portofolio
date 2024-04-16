@@ -5,6 +5,7 @@
   align-items: center;
   color: white;
   padding: 0 5%;
+  margin: 24px 0;
   .logo {
     p {
       margin: 0;
@@ -13,9 +14,10 @@
   }
   .navWrapper {
     .navLink {
+      font-size: 16px;
       text-decoration: none;
       color: white;
-      padding: 12px;
+      padding:6px 12px;
       margin: 0;
       position: relative;
       display: inline-block;
@@ -28,8 +30,8 @@
         &::after {
           content: "";
           display: block;
-          width: 8px;
-          height: 8px;
+          width: 6px;
+          height: 6px;
           background-color: #db752b;
           position: absolute;
           bottom: -5px;
