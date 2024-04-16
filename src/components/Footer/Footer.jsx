@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import ArrowUp from "../Projects/ArrowUp";
-import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
   const handleClick = () => {
