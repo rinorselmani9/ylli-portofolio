@@ -11,7 +11,7 @@ const Main = () => {
       <div id="main" className={styles.main}>
         <p className={styles.hello}>{main_content.first_heading} 👋</p>
         <h1 className={styles.header}>
-          <span className={styles.idText}>I’m</span> <b>Yll Sel<span className={styles.manText}>man</span>i</b>
+          <span className={styles.idText}>I’m</span> Yll Sel<span className={styles.manText}>man</span>i
         </h1>
         <h2 className={styles.description}>{main_content.description}</h2>
         <div className={styles.buttonWrapper}>
