@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import ArrowUp from "../Projects/ArrowUp";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate()
   const handleClick = () => {
-    window.location.href = '/contact';
+    navigate('/contact');
   };
   return (
     <div className={styles.footerWrapper}>
