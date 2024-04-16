@@ -6,10 +6,14 @@
   color: white;
   padding: 0 5%;
   margin: 24px 0;
+  
   .logo {
     p {
       margin: 0;
       font-size: 24px;
+      @media screen and (max-width: 500px) {
+        font-size: 20px;
+      }
     }
   }
   .navWrapper {
@@ -53,3 +57,4 @@
     }
   }
 }
+

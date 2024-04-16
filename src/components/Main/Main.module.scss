@@ -14,6 +14,9 @@
     margin: 24px 0px;
     font-size: 52px;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+      font-size: 46px;
+    }
     b {
       color: white;
     }
@@ -21,6 +24,13 @@
       font-family:'Merriweather', sans-serif ; 
       -webkit-text-stroke:1px white;
       color: transparent;
+      @media screen and (max-width: 500px) {
+        &:after {
+          content: ""; /* Add an empty content */
+          display: block; /* Make it a block element */
+          margin-bottom: 0.5em; /* Add some space after the text */
+        }
+      }
     }
     .manText {
       background-color: transparent;
@@ -30,6 +40,9 @@
   .description {
     margin: 10px 0px 32px;
     font-size: 20px;
+    @media screen and (max-width: 500px) {
+      font-size: 16px;
+    }
   }
   .gradientWrapper {
     max-width: 250px;
