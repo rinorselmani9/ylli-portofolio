@@ -66,7 +66,7 @@ export const projects = [
         preview_description:"Internship task",
 
         modal:{
-            first_image:"hr-projects.png",
+            first_image:"hr.png",
             second_image:"hr-projects.png",
             right_content:[
                 {
@@ -133,7 +133,7 @@ export const projects = [
         preview_description:"Internship task",
 
         modal:{
-            first_image:"Achilles1.png",
+            first_image:"ach.png",
             second_image:"Achilles1.png",
             right_content:[
                 {
@@ -203,7 +203,7 @@ export const projects = [
         preview_description:"Internship web-app",
 
         modal:{
-            first_image:"Pharmspoter.png",
+            first_image:"Ps.png",
             second_image:"Pharmspoter.png",
             right_content:[
                 {
