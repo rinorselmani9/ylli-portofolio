@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div className={styles.headerWrapper}>
       <div className={styles.logo}>
-        <p>
+        <p className={styles.logoText}>
           <b>Yll Selmani</b> Portofolio
         </p>
       </div>

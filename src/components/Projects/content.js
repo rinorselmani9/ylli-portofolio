@@ -62,7 +62,7 @@ export const projects = [
     },
     {
         preview_image:"Card_2.png",
-        preview_heading:"Redesigning hr.my website",
+        preview_heading:"hr.my website",
         preview_description:"Internship task",
 
         modal:{
