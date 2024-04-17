@@ -27,7 +27,7 @@ const Header = () => {
     <div className={styles.headerWrapper}>
       <div className={styles.logo}>
         <p className={styles.logoText}>
-          <b>Yll Selmani</b> Portofolio
+          <b>Yll Selmani</b> Portfolio
         </p>
       </div>
       <Navbar
