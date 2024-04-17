@@ -28,12 +28,13 @@ code {
     box-shadow: none;
 }
 
-
-.navbar-collapse {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  z-index: 1000;
-  background-color: #101011;
+@media screen and (max-width:991.98px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    background-color: #101011;
+  }
 }
 
