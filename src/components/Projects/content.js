@@ -5,7 +5,7 @@ export const projects = [
         preview_description:"ICK design challenge",
 
         modal:{
-            first_image:"Jobfinder.png",
+            first_image:"job.png",
             second_image:"Jobfinder.png",
             left_content:[
                 {
